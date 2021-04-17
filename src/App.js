@@ -1,22 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import sotis from './images/mia.jpg';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+
+        <img src={sotis}  className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Veckans Sötis i familjen Kottrheim är :
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p className="Announcement" >
+          MIA
+        </p>
       </header>
     </div>
   );

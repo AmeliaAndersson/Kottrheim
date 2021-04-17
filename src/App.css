@@ -7,6 +7,11 @@
   pointer-events: none;
 }
 
+.sotis-image {
+  height: 300px;
+  width: 200px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -22,6 +27,12 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.Announcement {
+  font-size: calc(20px + 2vmin);
+  color: #fc74d1;
+  font-weight: bold;
 }
 
 .App-link {
